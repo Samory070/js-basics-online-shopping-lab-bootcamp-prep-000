@@ -76,5 +76,5 @@ function placeOrder(cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you.")
     return false;
   }
-  console.log(`Your total cst is $${total,  which will }`)
+  console.log(`Your total cst is $${total},  which will be charged to your card ${cardNumber}`)
 }
