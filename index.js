@@ -18,6 +18,8 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  l = 
+  if ()
 
 }
 
