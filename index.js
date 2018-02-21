@@ -45,6 +45,7 @@ function viewCart() {
 }
 
 function total() {
+ let t = 
 }
 
 function removeFromCart(item) {
