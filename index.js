@@ -23,10 +23,10 @@ function viewCart() {
   console.log('Your shopping cart is empty.')
   }
 
+  return `In your cart, you have ${item} at \$${price}.`
 }
 
 function total() {
-
 }
 
 function removeFromCart(item) {
