@@ -31,13 +31,13 @@ function viewCart() {
     let price = itemAndPrice[item]
     itemsAndPrices.push(`${item} at \$${price}`);
   }
-  switch(itemsAndPrices) {
+  switch(itemsAndPrices.length) {
     case 1:
       break;
     case 2: itemsAndPrices.join(' and ');
       break;
     default:
-      itemsAndPrices
+      itemsAndPrices[l-1] = 'and '.concat(itemsAndPrices[])
   }
 
 
