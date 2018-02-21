@@ -48,7 +48,9 @@ function total() {
  let l = cart.length
  let t = 0;
  for (let i = 0: i < l; i++) {
-   
+   for (let price in cart[i]) {
+     t += cart[i][price];
+   }
  }
 }
 
