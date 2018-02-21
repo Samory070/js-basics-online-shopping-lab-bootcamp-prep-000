@@ -77,4 +77,6 @@ function placeOrder(cardNumber) {
     return false;
   }
   console.log(`Your total cst is $${total},  which will be charged to your card ${cardNumber}`)
+
+ cart = []
 }
