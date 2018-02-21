@@ -14,23 +14,31 @@ function addToCart(item) {
 
   cart.push({[item]: price})
   console.log(`${item} has been added to your cart.`)
-  return cart
+  return cart;
 }
 
 function viewCart() {
-  const l = cart.length
+  const l = cart.length;
   if (!l) {
-  console.log('Your shopping cart is empty.')
+  console.log('Your shopping cart is empty.');
   }
 
-  itemsAndPrices = []
+  itemsAndPrices = [];
 
   for (let i = 0; i < l; i++) {
     let itemAndPrice = cart[i]
     let item = Object.keys(itemAndPrice[0])
     let price = itemAndPrice[item]
+    itemsAndPrices.push(`${item} at \$${price}`);
   }
-  itemsAndPrices.push(`${item} at \$${price}`)
+  switch(itemsAndPrices) {
+    case 1:
+      break;
+    case 2: itemsAndPrices.join(' and ');
+      break;
+    default:
+      itemsAndPrices
+  }
 
 
 }
