@@ -56,10 +56,16 @@ function total() {
 }
 
 function removeFromCart(item) {
+  let l = cart.length
+  let itemFound = false;
 
-
+  for(let i = 0; i < l; i++) {
+    if (cart[i].hasOwnProperty(item)) {
+      itemFound = true;
+      cart = cart.slice(0, i).concat()
+    }
+  }
 }
-
 function placeOrder(cardNumber) {
 
 }
