@@ -23,8 +23,11 @@ function viewCart() {
   console.log('Your shopping cart is empty.')
   }
 
+  itemsAndPrices = []
+
   for (let i = 0; i < l; i++) {
-    
+    let itemAdPrice = cart[i]
+    let item = 
   }
   return `In your cart, you have ${item} at \$${price}.`
 }
