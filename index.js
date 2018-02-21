@@ -30,7 +30,7 @@ function viewCart() {
     let item = Objects.keys(itemAndPrice[0])
     let price = itemAndPrice[item]
   }
-  itemsAndPrices.push(`${item at \$${price}}`)
+  itemsAndPrices.push(`${item} at \$${price}`)
 
 
 }
