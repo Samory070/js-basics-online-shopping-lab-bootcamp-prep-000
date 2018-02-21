@@ -37,7 +37,7 @@ function viewCart() {
     case 2: itemsAndPrices.join(' and ');
       break;
     default:
-      itemsAndPrices[l-1] = 'and '.concat(itemsAndPrices[])
+      itemsAndPrices[l-1] = 'and '.concat(itemsAndPrices[l-1])
   }
 
 
