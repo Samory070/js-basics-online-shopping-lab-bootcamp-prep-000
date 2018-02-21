@@ -20,10 +20,10 @@ function addToCart(item) {
 function viewCart() {
   const l = cart.length;
   if (!l) {
-  console.log('Your shopping cart is empty.');
+  return console.log('Your shopping cart is empty.');
   }
 
-  // let itemsAndPrices = [];
+  let itemsAndPrices = [];
   //
   // for (let i = 0; i < l; i++) {
   //   let itemAndPrice = cart[i]
