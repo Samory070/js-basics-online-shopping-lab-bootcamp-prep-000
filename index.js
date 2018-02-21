@@ -34,11 +34,11 @@ function viewCart() {
   switch(itemsAndPrices.length) {
     case 1:
       break;
-    case 2: itemsAndPrices.join(' and ');
+    case 2: itemsAndPrices.join(" and ");
       break;
     default:
       itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
-      itemsAndPrices = itemsAndPrices.join(', ');
+      itemsAndPrices = itemsAndPrices.join(", ");
   }
   console.log(`In your cart, you have ${itemsAndPrices}.`)
 }
