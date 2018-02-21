@@ -26,10 +26,13 @@ function viewCart() {
   itemsAndPrices = []
 
   for (let i = 0; i < l; i++) {
-    let itemAdPrice = cart[i]
-    let item = Objects.keys()
+    let itemAndPrice = cart[i]
+    let item = Objects.keys(itemAndPrice[0])
+    let price = itemAndPrice[item]
   }
-  return `In your cart, you have ${item} at \$${price}.`
+  itemsAndPrices.push(`${item at \$${price}}`)
+
+
 }
 
 function total() {
