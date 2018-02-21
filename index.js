@@ -27,7 +27,7 @@ function viewCart() {
 
   for (let i = 0; i < l; i++) {
     let itemAdPrice = cart[i]
-    let item = 
+    let item = Objects.keys
   }
   return `In your cart, you have ${item} at \$${price}.`
 }
