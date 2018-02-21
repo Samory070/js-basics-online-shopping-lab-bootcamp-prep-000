@@ -23,6 +23,9 @@ function viewCart() {
   console.log('Your shopping cart is empty.')
   }
 
+  for (let i = 0; i < l; i++) {
+    
+  }
   return `In your cart, you have ${item} at \$${price}.`
 }
 
