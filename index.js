@@ -18,9 +18,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  const = cart.length
+  const l = cart.length
   if (!l) {
-    return console.log('Your shopping cart is empty.')
+  console.log('Your shopping cart is empty.')
   }
 
 }
